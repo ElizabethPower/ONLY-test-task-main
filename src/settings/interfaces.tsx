@@ -1,17 +1,17 @@
 import { Dispatch, SetStateAction, Ref, CSSProperties, ReactNode } from 'react'
 
 export interface FormInt {
-	id?: string //id поля из формика
-	name?: string //name поля из формика
+	id?: string 
+	name?: string
 	form?: {
-		// объект формы
+	
 		errors: object
 		touched: object
 		handleChange: any
 		values: any
 		validateForm: any
 	}
-	error?: boolean //Показать ошибку в компоненте
+	error?: boolean
 }
 
 export interface InputDefault {
